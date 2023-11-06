@@ -58,5 +58,62 @@ Para mais informações e verificar exemplos
 
 https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/01%20-%20Estrutura%20de%20uma%20pagina%20de%20dados.sql
 
+### 02 - O que é uma Heap Table
+
+Explicação
+
+A tabela DemoPage é uma Heap Table. Uma tabela que não tem índices clusterizado.
+
+Como ela não tem índices para a coluna iDCliente = 1, o SQL Server precisa ler toda a página da tabela para encontrar a linha que satisfaça o predicado.
+
+Mesmo que voce inclua os dados em uma ordem que deseja que eles fiquem, uma Heap Table não tem em sua estrutura algo que indique que esses dados estão ordenados.
+
+Por isso que sempre uma pesquisa de dados lerão todas as páginas da tabela heap.
+
+Quando utilizar uma Heap Table?
+
+Tabelas pequenas com poucas linhas e colunas cuja a soma total de bytes que serão armazenados for menor que 8060 bytes.
+
+Ref.: https://docs.microsoft.com/pt-br/sql/relational-databases/indexes/heaps-tables-without-clustered-indexes
+
+### 03 - Localizando uma linha na página.
+
+Como sei que uma determinada linha ou dados estão em uma página?
+
+No SQL Server, podemos utilizar de algumas formas para identificar a página de dados de uma linha ou as linhas contidas em uma página de dados.
+
+Uma delas é usando a pseudo coluna %%PHYSLOC%% que retorna um hexadecimal com o RID ( ROW IDENTIFIER ) do endereço físico da linha dentro de uma página.
+
+Ref.: http://sqlity.net/en/2451/physloc/
+      https://www.sqlskills.com/blogs/paul/sql-server-2008-new-undocumented-physical-row-locator-function/
+
+Para saber mais verificar:
+
+https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/03%20-%20Localizando%20uma%20linha%20na%20p%C3%A1gina.sql
+
+### 04 - O que é um extend
+
+O que são os Extends ou Extensões
+
+----------------------------------------
+
+Extend ou Extensão são agrupamentos de 8 páginas de dados fisicamente contíguas
+
+Um Extend tem o tamanho de 64Kb.
+
+O objetivo é gerenciar melhor o armazenamento físico dos dados.
+
+Para saber mais verificar:
+
+https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/04%20-%20Estrutura%20de%20um%20Extent.sql
+
+
+
+
+      
+
+
+
+
                  
 
