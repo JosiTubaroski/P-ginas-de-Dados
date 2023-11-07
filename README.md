@@ -107,7 +107,13 @@ Para saber mais verificar:
 
 https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/04%20-%20Estrutura%20de%20um%20Extent.sql
 
+### 05 - Estrutura de um registro
 
+https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/05%20-%20Estrutura%20de%20um%20Registro.sql
+
+### 06 - Visualizando o conteudo de uma página de dados
+
+https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/07%20-%20Visualizando%20o%20conte%C3%BAdo%20de%20uma%20p%C3%A1gina%20de%20dados.sql
 
 
       
