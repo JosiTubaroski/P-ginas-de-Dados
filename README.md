@@ -56,7 +56,7 @@ LOB serão tratados em uma seção especifica.
 
 
 
-👇  Para mais informações e verificar exemplos 
+👇  Para mais informações e verificar exemplos: 
 
 <div> 
 <p><a href="https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/01%20-%20Estrutura%20de%20uma%20pagina%20de%20dados.sql"> Estrutura de uma pagina de dados </a></p>
@@ -93,9 +93,13 @@ Uma delas é usando a pseudo coluna %%PHYSLOC%% que retorna um hexadecimal com o
 Ref.: http://sqlity.net/en/2451/physloc/
       https://www.sqlskills.com/blogs/paul/sql-server-2008-new-undocumented-physical-row-locator-function/
 
-Para saber mais verificar:
+👇 Para saber mais verificar:
 
-https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/03%20-%20Localizando%20uma%20linha%20na%20p%C3%A1gina.sql
+<div> 
+<p><a href="https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/03%20-%20Localizando%20uma%20linha%20na%20p%C3%A1gina.sql"> Localizando uma linha na página </a></p>
+</div> 
+
+
 
 ### 04 - O que é um extend
 
@@ -109,19 +113,25 @@ Um Extend tem o tamanho de 64Kb.
 
 O objetivo é gerenciar melhor o armazenamento físico dos dados.
 
-Para saber mais verificar:
+👇 Para saber mais verificar:
 
-https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/04%20-%20Estrutura%20de%20um%20Extent.sql
+<div> 
+<p><a href="https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/04%20-%20Estrutura%20de%20um%20Extent.sql"> Sobre Extends </a></p>
+</div> 
+
+
 
 ### 05 - Estrutura de um registro
 
-https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/05%20-%20Estrutura%20de%20um%20Registro.sql
+<div> 
+<p><a href="https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/05%20-%20Estrutura%20de%20um%20Registro.sql"> Estrutura de um registro </a></p>
+</div> 
 
 ### 06 - Visualizando o conteudo de uma página de dados
 
-https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/07%20-%20Visualizando%20o%20conte%C3%BAdo%20de%20uma%20p%C3%A1gina%20de%20dados.sql
-
-
+<div> 
+<p><a href="https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/07%20-%20Visualizando%20o%20conte%C3%BAdo%20de%20uma%20p%C3%A1gina%20de%20dados.sql"> Visualização de conteudo da Página </a></p>
+</div> 
       
 
 
