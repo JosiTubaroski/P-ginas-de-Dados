@@ -54,9 +54,15 @@ como varchar(max) ou varbinary(max).
 São eles lob logical reads, lob physical reads e lob read-ahead reads.
 LOB serão tratados em uma seção especifica.
 
-Para mais informações e verificar exemplos 
 
-https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/01%20-%20Estrutura%20de%20uma%20pagina%20de%20dados.sql
+
+👇  Para mais informações e verificar exemplos 
+
+<div> 
+<p><a href="https://github.com/JosiTubaroski/P-ginas-de-Dados/blob/main/01%20-%20Estrutura%20de%20uma%20pagina%20de%20dados.sql"> Estrutura de uma pagina de dados </a></p>
+</div> 
+
+
 
 ### 02 - O que é uma Heap Table
 
